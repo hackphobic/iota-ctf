@@ -1,6 +1,11 @@
-[package]
+[workspace]
 name = "iota-ctf"
-version = "0.1.0"
-edition = "2021"
+members = [
+    "iota-ctf-challenge-1",
+    "iota-ctf-challenge-2",
+    "iota-ctf-challenge-3",
+    "iota-ctf-challenge-4",
+    "iota-ctf-challenge-5",
+    "iota-ctf-challenge-6",
+]
 
-[dependencies]
